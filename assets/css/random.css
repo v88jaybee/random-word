@@ -1,0 +1,38 @@
+*{
+	text-align: center;
+	font-family: 'Comic Sans MS', cursive;
+}
+
+h1{
+	background-color: #530FFF;
+	margin: 20px auto;
+	padding: 30px;
+	line-height: 1em;
+	font-size: 2em;
+	color: #fff9d6;
+	font-weight:bold;
+	width: 450px;
+	text-shadow:0px 0px 0 	
+					rgb(216,216,216),1px 1px 0 
+					rgb(187,187,187),2px 2px 0 
+					rgb(158,158,158), 3px 3px 0 
+					rgb(129,129,129),4px 4px 3px 
+					rgba(0,0,0,0.8),4px 4px 1px 
+					rgba(0,0,0,0.5),0px 0px 3px 
+					rgba(0,0,0,.2);
+	border-radius: 40px;
+	letter-spacing: 5px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1em;
+	padding: 10px;
+	font-weight: bold;
+	font-family: "comic sans ms";
+	background-color: #ff0000;
+	border: 2px solid black;
+	color: white;
+	-webkit-box-shadow: 5px 5px 1px 0.5px #1c1c1c;
+	box-shadow: 5px 5px 1px 0.5px #1c1c1c;
+}
