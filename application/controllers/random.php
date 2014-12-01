@@ -4,6 +4,11 @@ class Random extends CI_Controller {
 
 	public function index()
 	{
+		$this->process_random_word();
+	}
+
+	public function process_random_word()
+	{
  		// incremental counter
  		$counter = $this->session->userdata('count');
  		
@@ -22,6 +27,11 @@ class Random extends CI_Controller {
 
  		$this->session->set_flashdata('random_word',$random_word);
 		
+		$this->display_random_word();
+	}
+
+	public function display_random_word()
+	{
 		$this->load->view('random_view');
 	}
 

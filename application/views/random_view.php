@@ -8,7 +8,7 @@
 <body>
 	<h2>Random Word (attempt # <?= $this->session->userdata('count'); ?>)</h2>
 	<h1><?= $this->session->flashdata('random_word');  ?></h1>
-	<a href="<?= base_url('random') ?>">Generate</a>
+	<a href="<?= base_url() ?>">Generate</a>
 
 </body>
 </html>	
